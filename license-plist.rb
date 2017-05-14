@@ -5,6 +5,6 @@ class LicensePlist < Formula
   sha256 "443e0ae64a9db2ae818ae3c736b11673f4f76693d701def18f6557aed3d843b4"
 
   def install
-    system "make", "install"
+    system "make", "install", "PREFIX=#{prefix}"
   end
 end
