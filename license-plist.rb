@@ -10,7 +10,7 @@ class LicensePlist < Formula
 
   bottle do
     root_url "https://github.com/mono0926/LicensePlist/releases/download/1.3.1"
-    sha256 "fae9a16cc0be6ceaad9bdd4b754b201883f638dac11b3b568330098cf7c82474" => :sierra
+    sha256 "fbb353425f520a171d0fc423107b3d1aa74552dc6100926a44c148f0596de943" => :sierra
   end
 
   def install
