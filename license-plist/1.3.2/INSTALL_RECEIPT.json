@@ -1,0 +1,8 @@
+{
+  "source": {
+    "tap": "mono0926/license-plist",
+    "versions": {
+      "stable": "1.3.2"
+    }
+  }
+}

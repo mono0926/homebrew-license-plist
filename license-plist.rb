@@ -1,16 +1,16 @@
 class LicensePlist < Formula
   desc "License list generator for iOS applications. "
   homepage "https://github.com/mono0926/LicensePlist"
-  url "https://github.com/mono0926/LicensePlist/archive/1.3.1.tar.gz"
-  sha256 "12084135bc5e3abea5f3c86a8f1798dbbd252c362295673ee6cc086135c85428"
+  url "https://github.com/mono0926/LicensePlist/archive/1.3.2.tar.gz"
+  sha256 "443e0ae64a9db2ae818ae3c736b11673f4f76693d701def18f6557aed3d843b4"
 
   head 'https://github.com/mono0926/LicensePlist.git', :branch => 'master'
 
   depends_on :xcode => ["8.3", :build]
 
   bottle do
-    root_url "https://github.com/mono0926/LicensePlist/releases/download/1.3.1"
-    sha256 "fbb353425f520a171d0fc423107b3d1aa74552dc6100926a44c148f0596de943" => :sierra
+    root_url "https://github.com/mono0926/LicensePlist/releases/download/1.3.2"
+    sha256 "b16fa6a15cb553eb9d80fbfc19d0a79b094de17799cbd1d7d784c2d16e3cf024" => :sierra
   end
 
   def install
