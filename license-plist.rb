@@ -18,6 +18,6 @@ class LicensePlist < Formula
   end
 
   test do
-    system bin/"license-plist"
+    system bin/license-plist
   end
 end
