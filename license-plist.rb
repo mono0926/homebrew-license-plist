@@ -14,7 +14,7 @@ class LicensePlist < Formula
   end
 
   def install
-    system "make", "install", "PREFIX=#{prefix}"
+    system "make", "install"
   end
 
   test do
