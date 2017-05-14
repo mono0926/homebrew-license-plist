@@ -14,10 +14,10 @@ class LicensePlist < Formula
   end
 
   def install
-    system "make", "install", "PREFIX=/usr/local
+    system "make", "install", "PREFIX=/usr/local"
   end
 
   test do
-    system bin/license-plist
+    system bin/"license-plist"
   end
 end
