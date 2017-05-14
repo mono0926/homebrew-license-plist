@@ -9,8 +9,8 @@ class LicensePlist < Formula
   depends_on :xcode => ["8.3", :build]
 
   bottle do
-    root_url "https://github.com/mono0926/LicensePlist/releases/download/1.3.1/license-plist.zip"
-    sha256 "ef26fb4da7843924ad04a65a6bfc8c0244c740635aeda96a16a90a253fe1f8c8" => :sierra
+    root_url "https://github.com/mono0926/LicensePlist/releases/download/1.3.1"
+    sha256 "fae9a16cc0be6ceaad9bdd4b754b201883f638dac11b3b568330098cf7c82474" => :sierra
   end
 
   def install
