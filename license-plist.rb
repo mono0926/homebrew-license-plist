@@ -7,4 +7,6 @@ class LicensePlist < Formula
   def install
     system "make", "install", "PREFIX=#{prefix}"
   end
+
+  depends_on :xcode => ["8.3", :build]
 end
