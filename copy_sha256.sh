@@ -11,5 +11,5 @@ result=$(shasum -a 256 $filename)
 echo "Result: '${result}'"
 sha256=$(echo ${result} | cut -d ' ' -f 1)
 echo $sha256 | tr -d '\n' | pbcopy
-echo "sha256('${sha256}') was copied your clipboard🎉"
+echo "sha256('${sha256}') was copied to your clipboard🎉"
 rm $filename
