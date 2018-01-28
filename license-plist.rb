@@ -1,8 +1,8 @@
 class LicensePlist < Formula
   desc "A license list generator of all your dependencies for iOS applications"
   homepage ""
-  url "https://github.com/mono0926/LicensePlist/archive/1.8.2.tar.gz"
-  sha256 "0d616859eafcb728f1db04644ac99e63200e98675f2d9377f53050992b5ebb97"
+  url "https://github.com/mono0926/LicensePlist/archive/1.8.3.tar.gz"
+  sha256 "e00e0fc32d24a684327b5bbf168e6f2c64c3328ffadfd1429e984b6082905799"
 
   def install
     system "make", "install", "PREFIX=#{prefix}"
