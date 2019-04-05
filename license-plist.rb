@@ -8,5 +8,5 @@ class LicensePlist < Formula
     system "make", "install", "PREFIX=#{prefix}"
   end
 
-  depends_on :xcode => ["8.3", :build]
+  depends_on :xcode => ["10.2", :build]
 end
